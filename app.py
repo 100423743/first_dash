@@ -11,7 +11,7 @@ df_url = 'https://forge.scilab.org/index.php/p/rdataset/source/file/master/csv/g
 df = pd.read_csv(df_url)
 df_cols = [{"name": i, "id": i} for i in df.columns]
 
-print("Hello!")
+print("Hello")
 
 app = dash.Dash(__name__, title="Dash App")
 
